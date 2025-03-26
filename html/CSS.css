@@ -1,0 +1,105 @@
+/*the body css whic is going to affect whole content*/
+body {                        
+    font-family: sans-serif;
+    background-image: url(images/kids.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+/*the css to make all divs inside main columns*/
+main {
+    display: grid;
+    padding: 1rem;
+    grid-template-columns: 1fr;
+    gap:1rem;
+    width: 60%;
+    justify-items:center;
+
+
+} 
+/*the css for all headers*/
+h1,h2,h3,h4{
+    color:rgb(117, 117, 180);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*the css for all buttons*/
+button:hover{
+    color: blueviolet;
+    border: 1px solid;
+    border-radius: 20px;
+}
+/*the css for all divs*/
+#Home-work,
+#Flash-Backs,
+#quiz,
+#topic-review {
+    border: 1px solid;
+    border-radius: 20px;
+    box-shadow: 2px,3px,4px blue;
+    padding:40px;
+    background-color: rgb(225, 204, 204);
+    overflow: auto;
+}
+/*the css for prev and next buttons*/
+#prev,#next {
+    margin-top: 20px;
+}
+#options{
+    margin-top: 20px;
+}
+/*the css for flash back contents to be next to eachother*/
+#flash-content{
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 5px;
+    cursor: pointer;
+  
+}
+/*the css for int section*/
+#int{
+
+    border: 1px solid;
+    border-radius: 20px;
+    box-shadow: 2px,3px,4px blue;
+    padding:40px;
+    background-color: rgb(225, 204, 204);
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+}
+#internet-input{
+    flex-grow: 1;
+    padding:0;
+}
+/*the css to make search button smaller*/
+button #search{
+    width: 40px;
+}
+#int input,
+#int button {
+    display: inline-block; 
+    vertical-align: middle; 
+    
+}
+/*the css for int button*/
+#int button {
+    padding: 0; 
+    border: none; 
+    background: none;
+    cursor: pointer; 
+    margin-left: 2px;
+}
+#search-icon{
+   
+    display: flex; 
+    align-items: center;
+}
+/*the css to make the hint me up button float to the right of the input field*/
+#hintbutton{
+    display: flex; 
+    align-items: center;
+
+}
+
+

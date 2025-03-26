@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--the meta tag to make the ap to responsive-->
+    <title>Study Buddy</title>
+    <!--the link of external css-->
+    <link rel="stylesheet" href="CSS.css">
+</head>
+<body>
+    <header>
+        <h1 style="margin-left: 40%;">Study Buddy</h1>
+    </header>
+    <main>
+       <!--container of revview section-->
+        <div id="topic-review">
+            <h2>Topic review</h2>
+            <select id="select">
+                <option value="Math">Math</option>
+                <option value="Science">science</option>
+                <option value="History">History</option>
+                <option value="Geography">Geography</option>
+            </select>
+            <button id="review-button">Get Review</button>
+            <br>
+            <br>
+            <div id="content-review"></div>
+        </div>
+        <!--the container of internet browsing part-->
+        
+        <div id="int">
+            <h4 style="font-style:italic">Have internet!!!! browse google</h4>
+            <div id="search-icon">
+                <input type="text" id="internet-input" placeholder="please browse any topic of your interest">
+                <button><img src="images/search-icon.svg" alt="search-icon" id="search" width="40%" height="40%"></button>
+            </div>
+            <div id="internet-content"></div>
+        </div>
+            
+       <!--homework hints part-->
+        <div id="Home-work">
+            <h2>Home work Hints</h2>
+            <div id="hintbutton">
+                <input type="text" id="hintinput" placeholder="wants hints???!!">
+                <button id="hint-button">Hint me up buddy</button>
+            </div>
+            <div id="content-hints"></div>
+        </div>
+        <!--the flash back container-->
+        <div id="Flash-Backs">
+            <h2>Flash-Backs</h2>
+            <div id="flash-content"></div>
+            <button id="prev">Prev</button>
+            <button id="next">next</button> 
+        </div>
+        <div id="quiz">
+            <h2>Multiple Choice Questions </h2>
+            <div id="questions"></div>
+            <div id="options"></div>
+            <div id="results"></div>
+        </div>
+    </main>
+    <script type="module" src="study.js"></script><!--the external link of javascript-->
+</body>
+</html>
