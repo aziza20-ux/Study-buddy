@@ -115,7 +115,7 @@ document.addEventListener("DOMContentLoaded", function(){
                 method: `GET`,
                 headers: {
                     'x-rapidapi-host': 'google-search74.p.rapidapi.com',
-                    'x-rapidapi-key': 'da2c9c0400mshb11dd1172ae674ap1d2556jsn30078a9edf2f',
+                    'x-rapidapi-key': config.API_KEYS,
                 }
             });
             //the block to parse through api fetched data
@@ -148,6 +148,7 @@ document.addEventListener("DOMContentLoaded", function(){
         }
     });
 });
+
 
 
 
