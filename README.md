@@ -132,3 +132,7 @@ The following tests were performed to verify the deployment and load balancing:
     * Tools like `ab` (ApacheBench) or `wrk` were used to perform load testing and ensure the application's performance remained consistent under increased traffic.
 
 By following these steps, we successfully deployed our application to two web servers and configured a load balancer to ensure high availability, scalability, and seamless user experience.
+
+#the link to study buddy demo
+
+https://www.youtube.com/watch?v=wiNOmAPSOSU
